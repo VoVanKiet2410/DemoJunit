@@ -35,7 +35,7 @@ public class Product {
     public void setCategory(Category category) { this.category = category; }
 
     public boolean isInStock() {
-        return quantity >= 0;
+        return quantity > 0;
     }
 
     public BigDecimal calculateTotalValue() {
