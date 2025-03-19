@@ -5,6 +5,6 @@ import org.junit.jupiter.api.Test;
 public class SubtractionTest {
     @Test
     void testSubtraction() {
-        assertEquals(4, 1 + 3);
+        assertEquals(10,  20 - 10);
     }
 }
