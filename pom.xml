@@ -39,6 +39,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
 		<!-- Thêm dependency này vì bạn sử dụng ParameterizedTest -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
